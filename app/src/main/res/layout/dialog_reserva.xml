@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione o período de reserva:"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio1Dia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 dia"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radio2Dias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 dias"/>
+
+        <RadioButton
+            android:id="@+id/radio3Dias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 dias"/>
+    </RadioGroup>
+
+</LinearLayout>

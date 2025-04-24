@@ -1,0 +1,13 @@
+<resources>
+    <string name="adicionar_roupa">Adicionar Roupa</string>
+    <string name="reservar">Reservar</string>
+    <string name="app_name">Brechó</string>
+    <string name="entrar_como_cliente">Entrar como Cliente</string>
+    <string name="entrar_como_admin">Entrar como Administrador</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sair">Sair</string>
+    <string name="sacola">Sacola</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="voltar">Voltar</string>
+    <string name="reservado">Reservado</string>
+</resources>
