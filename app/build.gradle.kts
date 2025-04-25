@@ -50,4 +50,5 @@ dependencies {
     implementation ("com.google.android.material:material:1.5.0")
     implementation ("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation ("androidx.databinding:viewbinding:7.1.2")
+    implementation ("com.squareup.okhttp3:okhttp:4.9.3")
 }

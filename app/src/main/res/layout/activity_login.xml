@@ -35,6 +35,18 @@
         android:textColor="@android:color/white"
         app:backgroundTint="@color/purple_500"
         android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_marginTop="16dp"/>
 
     <Button
         android:id="@+id/btnAdmin"
