@@ -1,44 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="?android:attr/selectableItemBackground"
-    android:layout_marginBottom="8dp"
-    android:elevation="2dp">
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:padding="16dp"
+   android:background="?android:attr/selectableItemBackground"
+   android:layout_marginBottom="8dp"
+   android:elevation="2dp">
 
-    <TextView
-        android:id="@+id/textNome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:text="Vestido Floral"/>
 
-    <TextView
-        android:id="@+id/textCor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textSize="16sp"
-        tools:text="Cor: Vermelho"/>
+   <TextView
+       android:id="@+id/textNome"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       tools:text="Vestido Floral"/>
 
-    <TextView
-        android:id="@+id/textTamanho"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:textSize="16sp"
-        tools:text="Tamanho: M"/>
 
-    <Button
-        android:id="@+id/btnReservar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:textAllCaps="false"
-        tools:text="Reservar"/>
+   <TextView
+       android:id="@+id/textCor"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:textSize="16sp"
+       tools:text="Cor: Vermelho"/>
+
+
+   <TextView
+       android:id="@+id/textTamanho"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="4dp"
+       android:textSize="16sp"
+       tools:text="Tamanho: M"/>
+
+
+   <Button
+       android:id="@+id/btnReservar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="12dp"
+       android:textAllCaps="false"
+       tools:text="Reservar"/>
+
 
 </LinearLayout>
