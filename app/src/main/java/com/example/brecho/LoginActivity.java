@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
         binding.btnLogin.setOnClickListener(v -> fazerLogin());
 
         binding.btnCadastrar.setOnClickListener(v -> {
-            startActivity(new Intent(this, CadastroActivity.class));
+            startActivity(new Intent(this, ClienteActivity.class));
         });
     }
 
