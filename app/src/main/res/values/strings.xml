@@ -10,4 +10,16 @@
     <string name="filtrar">Filtrar</string>
     <string name="voltar">Voltar</string>
     <string name="reservado">Reservado</string>
+    <string name="dias_reserva">Selecione o período de reserva:</string>
+    <string name="dia1">1 dia</string>
+    <string name="dia2">2 dias</string>
+    <string name="dia3">3 dias</string>
+    <string name="minha_sacola">Minha Sacola</string>
+    <string name="back">Voltar</string>
+    <string name="periodo">Selecione o período de reserva:</string>
+    <string name="nome">Nome</string>
+    <string name="cor">Cor</string>
+    <string name="tamanho">Tamanho</string>
+    <string name="senha">Digite a senha de administrador:</string>
+
 </resources>
