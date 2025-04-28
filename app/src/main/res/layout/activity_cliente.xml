@@ -1,76 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    tools:context="ClienteActivity">
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:padding="16dp"
+   tools:context="ClienteActivity">
 
-    <LinearLayout
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
 
-        <Button
-            android:id="@+id/btnSacola"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sacola"
-            app:icon="@drawable/ic_shopping_cart"/>
+   <LinearLayout
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginBottom="16dp">
 
-        <View
-            android:layout_width="0dp"
-            android:layout_height="1dp"
-            android:layout_weight="1"/>
 
-        <Button
-            android:id="@+id/btnSair"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sair"/>
-    </LinearLayout>
+       <Button
+           android:id="@+id/btnSacola"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Sacola"
+           app:icon="@drawable/ic_shopping_cart"/>
 
-    <LinearLayout
-        android:id="@+id/layoutFiltros"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginBottom="16dp">
 
-        <EditText
-            android:id="@+id/etFiltroCor"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="Filtrar por cor"
-            android:inputType="text"/>
+       <View
+           android:layout_width="0dp"
+           android:layout_height="1dp"
+           android:layout_weight="1"/>
 
-        <EditText
-            android:id="@+id/etFiltroTamanho"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="Filtrar por tamanho"
-            android:inputType="text"
-            android:layout_marginStart="8dp"/>
 
-        <Button
-            android:id="@+id/btnFiltrar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Filtrar"
-            android:layout_marginStart="8dp"/>
-    </LinearLayout>
+       <Button
+           android:id="@+id/btnSair"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Sair"/>
+   </LinearLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:paddingBottom="16dp"/>
+
+   <LinearLayout
+       android:id="@+id/layoutFiltros"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginBottom="16dp">
+
+
+       <EditText
+           android:id="@+id/etFiltroCor"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:hint="Filtrar por cor"
+           android:inputType="text"/>
+
+
+       <EditText
+           android:id="@+id/etFiltroTamanho"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:hint="Filtrar por tamanho"
+           android:inputType="text"
+           android:layout_marginStart="8dp"/>
+
+
+       <Button
+           android:id="@+id/btnFiltrar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Filtrar"
+           android:layout_marginStart="8dp"/>
+   </LinearLayout>
+
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:clipToPadding="false"
+       android:paddingBottom="16dp"/>
+
 
 </LinearLayout>
