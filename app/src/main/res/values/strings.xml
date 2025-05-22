@@ -1,0 +1,18 @@
+<resources>
+    <string name="adicionar_roupa">Adicionar Roupa</string>
+    <string name="app_name">Brechó</string>
+    <string name="entrar_como_admin">Entrar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sair">Sair</string>
+    <string name="voltar">Voltar</string>
+    <string name="reservado">Reservado</string>
+    <string name="back">Voltar</string>
+    <string name="periodo">Selecione o período de reserva:</string>
+    <string name="nome">Nome</string>
+    <string name="cor">Cor</string>
+    <string name="tamanho">Tamanho</string>
+    <string name="senha">Digite a senha de administrador:</string>
+    <string name="colocar">Adicionar</string>
+    <string name="exit">Sair</string>
+
+</resources>
