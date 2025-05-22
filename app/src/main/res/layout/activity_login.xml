@@ -7,11 +7,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
-    android:background="@android:color/white"
-    tools:context="LoginActivity">
-
-
-
+    android:background="@color/white"
+    tools:context=".LoginActivity">
 
    <ImageView
        android:id="@+id/imgLogo"
@@ -21,32 +18,20 @@
        android:layout_marginBottom="32dp"
        android:contentDescription="@string/app_name"/>
 
-
-
-
    <TextView
        android:id="@+id/txtTitulo"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="@string/app_name"
+       android:text="Brecho Admin"
        android:textSize="24sp"
-       android:textColor="@android:color/black"
+       android:textColor="@color/black"
        android:layout_marginBottom="48dp"/>
-
-
-
-
-
 
    <Button
        android:id="@+id/btnAdmin"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-       android:text="@string/entrar_como_admin"
-       android:textColor="@android:color/white"
+       android:text="Entrar"
+       android:textColor="@color/white"
        app:backgroundTint="@color/teal_700"/>
-
-
-
-
 </LinearLayout>

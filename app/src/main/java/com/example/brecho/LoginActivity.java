@@ -29,8 +29,9 @@ public class LoginActivity extends AppCompatActivity {
 
 
         binding.btnAdmin.setOnClickListener(v -> {
-            showAdminDialog();
+            startActivity(new Intent(this, AdminActivity.class));
         });
+
     }
 
 
