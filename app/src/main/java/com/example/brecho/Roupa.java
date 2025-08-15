@@ -10,22 +10,21 @@ public class Roupa {
    private String nome;
    private String cor;
    private String tamanho;
-   // Adicione um campo para o preço se desejar, por exemplo:
-   // private double preco;
-   // Adicione campos para imagens se desejar, por exemplo:
-   // private String imagePath;
+   private double preco; // CAMPO ADICIONADO
+   private String imagemUrl; // CAMPO ADICIONADO
 
-
-   // Construtor usado ao criar uma nova roupa (sem ID, pois é autogerado)
-   public Roupa(String nome, String cor, String tamanho) {
+   // Construtor atualizado para incluir os novos campos
+   public Roupa(String nome, String cor, String tamanho, double preco, String imagemUrl) {
       this.nome = nome;
       this.cor = cor;
       this.tamanho = tamanho;
+      this.preco = preco;
+      this.imagemUrl = imagemUrl;
    }
 
    // Getters e Setters
    public int getId() { return id; }
-   public void setId(int id) { this.id = id; } // Room precisa do setter do id
+   public void setId(int id) { this.id = id; }
 
    public String getNome() { return nome; }
    public void setNome(String nome) { this.nome = nome; }
@@ -36,4 +35,9 @@ public class Roupa {
    public String getTamanho() { return tamanho; }
    public void setTamanho(String tamanho) { this.tamanho = tamanho; }
 
+   public double getPreco() { return preco; } // GETTER ADICIONADO
+   public void setPreco(double preco) { this.preco = preco; } // SETTER ADICIONADO
+
+   public String getImagemUrl() { return imagemUrl; } // GETTER ADICIONADO
+   public void setImagemUrl(String imagemUrl) { this.imagemUrl = imagemUrl; } // SETTER ADICIONADO
 }
